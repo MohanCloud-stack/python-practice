@@ -1,0 +1,13 @@
+print("Enter the first string")
+str1=input()
+print("Enter the second string")
+str2=input()
+s1=set(str1)
+s2=set(str2)
+l1=list(s1)
+l2=list(s2)
+print(l1)
+print(l2)
+char=list(s1 & s2)
+print(char)
+
